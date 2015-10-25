@@ -25,11 +25,11 @@
 	font-size: .8em;
 	width: 80%;
 	height: 100%;
-	background-color: yellow;
-	/*overflow: scroll;*/
+	background-image: url(../images/chalkboard.png);
 	float: right;
 }
 .main h2 {
+	color: #ffffff;
 	text-align: center;
 }
 #accordion {
