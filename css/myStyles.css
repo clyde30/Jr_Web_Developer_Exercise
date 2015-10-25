@@ -9,17 +9,22 @@
 .titleBox {
 	color: #FFFFFF;
 	font-size: 1.5em;
-	background-color: #C3876B;
+	/*background-color: #C3876B;*/
 	text-align: center;
 	width: 100%;
 	height: 10%;
 	float: clear;
 	font-family: 'Niconne', cursive;
 }
+.subTitle {
+	text-align: center;
+	color: #C3876B;
+}
 .sidebar {
 	background-color: #C3876B;
+	margin-top: 40px;	
 	width: 20%;
-	height: 90%;
+	height: 83.7%;
 	float: left;
 
 }
