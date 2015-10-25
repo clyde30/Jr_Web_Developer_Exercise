@@ -1,5 +1,4 @@
 for (var chapter in book) {
-	$("#output").append("Chapter "+chapter+" : "+book[chapter].title+"<br>")
-
-	console.log("Chapter "+chapter+ " : " + book[chapter].title);
+	$("#output").append("<h3>Chapter "+chapter+": "+book[chapter].title+"</h3>")
+	$("#output").append("<div><p>"+book[chapter].summary+"</p></div>")
 }
