@@ -32,6 +32,7 @@
 	width: 80%;
 	height: 100%;
 	float: right;
+	overflow: hidden;
 }
 .main h2 {
 	color: #ffffff;
@@ -63,6 +64,16 @@
 }
 .nav a:hover, a:active {
 	background-color: #000000;
+}
+#banner {
+	color: #FFFFFF;
+	/*position: relative;*/
+	/*background-color: #000000;*/
+	width: 75%;
+	height: 50px;
+	/*left:100%; */
+
+	/*display: none;*/
 }
 #accordion {
 	margin: auto;
