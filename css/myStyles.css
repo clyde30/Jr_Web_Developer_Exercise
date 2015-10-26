@@ -9,7 +9,7 @@
 .titleBox {
 	color: #FFFFFF;
 	font-size: 1.5em;
-	/*background-color: #C3876B;*/
+	/*background-color: #F6996A;*/
 	text-align: center;
 	width: 100%;
 	height: 10%;
@@ -18,10 +18,10 @@
 }
 .subTitle {
 	text-align: center;
-	color: #C3876B;
+	color: #F6996A;
 }
 .sidebar {
-	background-color: #C3876B;
+	background-color: #F6996A;
 	margin-top: 40px;	
 	width: 20%;
 	height: 83.7%;
