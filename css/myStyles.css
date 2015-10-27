@@ -1,45 +1,57 @@
+html, body {
+	margin: 0;
+	padding: 0;
+}
 .wrapper {
-	height: 650px;
-	width: 900px;
-	margin: auto;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 960px;
 	background-image: url(../images/chalkboard.png);
+	display: flex;
+	flex-wrap: wrap;
 }
 .titleBox {
-	color: #FFFFFF;
-	font-size: 1.5em;
+	text-align: center;
+	overflow: hidden;
 	/*background-color: #F6996A;*/
-	text-align: center;
 	width: 100%;
-	height: 10%;
-	float: clear;
-	font-family: 'Niconne', cursive;
+	height: 75px;
 }
-.subTitle {
-	text-align: center;
-	color: #F6996A;
+.sidebar, .main {
+	height: 720px;
 }
 .sidebar {
-	background-color: #F6996A;
-	margin-top: 40px;	
-	width: 20%;
-	height: 83.7%;
-	float: left;
-
+	background-color: black;
+	width: 15%;
+}
+.subTitle {
+	width: 100%;
+	text-align: center;
+}
+.subTitle h4{
+	color: #F6996A
+}
+.main, .nav {
+	/*background-color: green;*/
+	width: 85%;
 }
 .main {
-	width: 80%;
-	height: 100%;
-	float: right;
-	overflow: hidden;
+	border-top: 2px solid #FFFFFF;
 }
 .main h2 {
 	color: #ffffff;
-	text-align: center;
+	/*text-align: center;*/
 }
-.nav {
-	/*background-color: #000000;*/
+.navBox {
 	width: 100%;
 	height: 30px;
+}
+.nav {
+	/*order: 1;*/
+	margin-left: auto;
+	/*background-color: gray;*/
+	/*width: 85%;*/
+	height: 100%;
 }
 .nav ul {
 	list-style-type: none;
@@ -68,13 +80,20 @@
 	margin-left: auto;
 	margin-right: auto;
 }
+.bannerBox {
+	width: 100%;
+	height: 75px;
+	color: #FFFFFF;
+	/*margin: auto;*/
+}
 #banner {
 	margin: auto;
-	color: #FFFFFF;
+	text-align: center;
+	/*color: #FFFFFF;*/
 	/*position: relative;*/
 	/*background-color: #000000;*/
-	width: 75%;
-	height: 50px;
+	width: 50%;
+	/*height: 50px;*/
 	/*top: 50%; */
 }
 #accordion {
