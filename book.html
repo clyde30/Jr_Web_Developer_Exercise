@@ -6,16 +6,23 @@
 <meta charset="utf-8">
 	<title>Book</title>
 <link rel="stylesheet" type="text/css" href="css/myStyles.css">
+<link rel="stylesheet" type="text/css" href="css/media.css">
 <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/themes/smoothness/jquery-ui.css">
 <link href='https://fonts.googleapis.com/css?family=Niconne' rel='stylesheet' type='text/css'>
 </head>
 
 <body>
 <div class="wrapper">
-	<div class="titleBox">
-	<img src="images/bannerlogo.png">
+	<div class="titleBox"> 
+		<div class="box1">
+			<img src="images/fotf_logo.png">
+		</div>
+		<div class="box2">
+			<img src="images/rtw_logo.png">
+		</div>
+		
 	</div>
-	<div class="navBox">
+	<nav>
 		<div class ="nav">
 			<ul>
 				<li><a href="index.html">Home</a></li>
@@ -24,21 +31,33 @@
 				<li><a href="book.html">Book</a></li>
 			</ul>
 		</div>
-	</div>
-	<div class="sidebar"></div>
-	<div class="main">
-		<div class="mainTitle">
-			<h2>Chapters</h2>
+	</nav>
+	<aside>
+		<div class="sideNav">
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="video.html">Video</a></li>
+				<li><a href="author.html">Author</a></li>
+				<li><a href="book.html">Book</a></li>
+			</ul>
 		</div>
-		<div class="mainContent">
+		<div class="sideLowerBox">
+			
+		</div>
+	</aside>
+	<div class="main">
+		<h2>Chapters</h2>
+		
+		<div>
 			<div id="accordion"></div>
 		</div>
-		<!-- <div class="bannerBox">
+		
+		<div class="bannerBox">
 			<div id="banner"></div>
-		</div> -->
+		</div>
 	</div>
 </div>
-		
+			
 <script src="js/jquery-2.1.4.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
 <script src="js/bookData.js"></script>
