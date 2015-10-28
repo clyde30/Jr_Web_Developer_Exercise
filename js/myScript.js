@@ -4,12 +4,14 @@ function makeAccordion () {
 		$("#accordion").append("<div><p>"+book[chapter].summary+"</p></div>")
 	}
 	$("#accordion").accordion();
+	$(".ui-accordion-header").css("background","#F6996A") ;
+	$(".ui-accordion-content").css("background","none") ;
 	return chapter;
 }
+var chapter = makeAccordion();
 
 function changeText() {
 	var textIndex = 1;
-	var chapter = makeAccordion();
 	textIndex++;
 	$("#banner").fadeIn().html("<p>\""+book[textIndex].summary+"\"</p>").delay(8000).fadeOut();
 	if (textIndex >= chapter) {
