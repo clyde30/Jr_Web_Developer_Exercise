@@ -1,17 +1,20 @@
-for (var chapter in book) {
-	$("#accordion").append("<h3>Chapter "+chapter+": "+book[chapter].title+"</h3>")
-	$("#accordion").append("<div><p>"+book[chapter].summary+"</p></div>")
+function makeAccordion () {
+	for (var chapter in book) {
+		$("#accordion").append("<h3>Chapter "+chapter+": "+book[chapter].title+"</h3>")
+		$("#accordion").append("<div><p>"+book[chapter].summary+"</p></div>")
+	}
+	$("#accordion").accordion();
+	return chapter;
 }
 
-var textIndex = 1;
-
 function changeText() {
+	var textIndex = 1;
+	var chapter = makeAccordion();
 	textIndex++;
 	$("#banner").fadeIn().html("<p>\""+book[textIndex].summary+"\"</p>").delay(8000).fadeOut();
 	if (textIndex >= chapter) {
 	textIndex = 0;
 	};	
-
 }
 
 function banner() {
