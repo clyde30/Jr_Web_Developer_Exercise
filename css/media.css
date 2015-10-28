@@ -22,13 +22,16 @@
 	}
 }
 @media screen and (max-width: 580px) {
-	
-	.mainTitle {
+	.sideNav a {
+		display: block;
+	}
+	.mainTitle, nav {
 		display: none;
 	}
 	.mainContent {
-		width: 100%;
+		width: 75%;
 	}
+	/*There is an issue with the spacing. Image is too low, need text to move into space above image*/
 	.bannerBox {
 		font-size: .5em;
 		width: 100%;
