@@ -1,0 +1,15 @@
+@media screen and (max-width: 780px) {
+	.mainTitle h2{
+		color: red;
+	}
+	.box1, .box2 {
+		float: none;
+	}
+	.box1 {
+		margin-left: auto;
+		margin-right: auto;	
+	}
+	.box2 {
+		display: none;
+	}	
+}
