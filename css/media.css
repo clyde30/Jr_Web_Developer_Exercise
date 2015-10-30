@@ -35,6 +35,9 @@
 	.bannerBox {
 		font-size: .5em;
 		width: 100%;
+	}
+	.videoWrapper {
+		margin-left: 25%;
 
 	}
 }
