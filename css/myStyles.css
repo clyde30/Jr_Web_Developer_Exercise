@@ -19,7 +19,6 @@ img {
 .titleBox {
 	width: 100%;
 	height: 75px;
-
 }
 .box1, .box2 {
 	width: 50%;
@@ -28,8 +27,6 @@ img {
 aside {
 	height: 720px;
 	border-top: 2px solid #FFFFFF;
-}
-aside {
 	width: 15%;
 }
 .mainTitle {
@@ -47,11 +44,15 @@ aside {
 .main {
 	border-top: 2px solid #FFFFFF;
 	align-items: center;
-  	justify-content: center;
+  	justify-content: center; /*this is not working in firefox 41.0.2*/
   	height: 100%;
 }
 .main h2 {
 	color: #ffffff;
+}
+.mainContent {
+	order:2;
+	width: 35%;
 }
 .sideNav {
 	color: #FFFFFF;
@@ -97,10 +98,6 @@ nav {
 .nav .sideNav, a:hover, a:active {
 	background-color: lightgray;
 }
-.mainContent {
-	order:2;
-	width: 35%;
-}
 .bannerBox {
 	order:3;
 	width: 100%;
@@ -114,7 +111,6 @@ nav {
 	font-size: 1.5em;
 	width: 90%;
 	align-self: flex-end;
-
 }
 #accordion {
 	margin: auto;
