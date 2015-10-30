@@ -27,3 +27,8 @@ function banner() {
  $(document).ready(function () {
 	banner();
 })
+ $("#hero").hover(function() {
+ 	$(this).children("p").fadeIn(3000).css("display","block");
+ 	}, function() {
+ 	$(this).children("p").css("display","none");
+ })
