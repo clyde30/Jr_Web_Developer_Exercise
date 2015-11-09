@@ -9,9 +9,9 @@ function makeAccordion () {
 	return chapter;
 }
 var chapter = makeAccordion();
+var textIndex = 1;
 
 function changeText() {
-	var textIndex = 1;
 	textIndex++;
 	$("#banner").fadeIn().html("<p>\""+book[textIndex].summary+"\"</p>").delay(8000).fadeOut();
 	if (textIndex >= chapter) {
@@ -20,7 +20,7 @@ function changeText() {
 }
 
 function banner() {
-	$("#banner").html("<p>\""+book[1].summary+"\"</p").delay(8000).fadeOut();
+	$("#banner").html("<p>\""+book[textIndex].summary+"\"</p").delay(8000).fadeOut();
 	setInterval(changeText,10000);
 }
 
